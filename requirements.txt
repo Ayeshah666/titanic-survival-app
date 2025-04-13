@@ -1,7 +1,7 @@
-streamlit
-scikit-learn
-numpy
-pandas
-tensorflow
-joblib
-pipeline
+tensorflow-cpu==2.12.0  # Use CPU-only version for cloud deployment
+scikit-learn==1.2.2
+pandas==2.0.3
+numpy==1.24.3
+joblib==1.2.0
+streamlit==1.28.0
+protobuf==3.20.3  # Required for TensorFlow compatibility
